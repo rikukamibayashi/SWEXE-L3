@@ -18,7 +18,7 @@
 
  body {
      background-color: white;
-     width: 1200px;
+     width: 980px;
      margin: 0 auto;
  }
  
@@ -29,13 +29,13 @@
  }
 
  #header {
-      width: 720px;
-      float: left;
+     width: 500px;
+     float: right;
  }
 
  #sidebar {
-      width: 220px;
-      float: right;
+     width: 720px;
+     float: left;
  }
 
  #content {
@@ -45,6 +45,6 @@
  }
  
  #footer {
-     width: 720px;
-     float: left;
+      clear: both;
+      text-align: center;
  }

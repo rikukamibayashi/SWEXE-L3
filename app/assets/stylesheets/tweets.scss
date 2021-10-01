@@ -1,3 +1,72 @@
 // Place all the styles related to the Tweets controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#head {
+    nav ul {
+        list-style-type: none;
+         margin: 50;
+         padding: 0;
+    }
+    nav li {
+        display: inline;
+    }
+    nav li a {
+        text-decoration: none;
+        padding: 6px;
+        background-color: white;
+        color: black;
+    }
+    nav li a:hover {
+        background-color: white;
+        border-bottom: solid 4px #2F9CFF;
+        color: black;
+    }
+}
+
+
+#side {
+    ul {
+        color: black;
+        margin: 0;
+        padding: 100;
+        list-style-position: inside;
+    }
+    li a {
+        text-decoration: none;
+        padding: 8px;
+        background-color: white;
+        color: black;
+    }
+    li a:hover {
+        border-radius: 30px;
+        background-color: #dddddd;
+        color: black;
+    }
+    li.a {
+        list-style-type: square;
+        background-image: ulr("../images/ホーム.png");
+    }
+}
+
+
+#side2 {
+    ul {
+        list-style-type: none;
+        color: white;
+    }
+    li a {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 100vh;
+        text-decoration: none;
+        background-color: #2F9CFF;
+        color: white;
+    }
+    li a:hover {
+        border-radius: 100vh;
+        background-color: #26C1FF;
+        color: white;
+    }
+}

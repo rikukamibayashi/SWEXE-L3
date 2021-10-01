@@ -6,43 +6,24 @@
   </head>
   <body>
     <header>
-      <style type=“text/css”>
-          ul {
-            list-style-type: none;
-            color: black;
-            margin: 0;
-            padding: 0;
-          }
-          li {
-            display: block;
-          }
-          li a {
-            text-decoration: none;
-            padding: 8px;
-            background-color: white;
-            color: black;
-          }
-          li a:hover {
-            background-color: #dddddd;
-            color: black;
-          }
-          float: left;
-      </style>
       <div id="side">
         <ul>
-          <li><a href=".">ホーム<a></li><p>
-          <li><a href=".">話題を検索<a></li><p>
-          <li><a href=".">通知<a></li><p>
-          <li><a href=".">メッセージ<a></li><p>
-          <li><a href=".">ブックマーク<a></li><p>
-          <li><a href=".">リスト<a></li><p>
-          <li><a href=".">プロフィール<a></li><p>
-          <li><a href=".">もっと見る<a></li><p>
-          <input type = "submit" value = "ツイートする">ツイートする
+          <li class="a"><a href=".">ホーム<a></li><p>
+          <li class="b"><a href=".">話題を検索<a></li><p>
+          <li class="c"><a href=".">通知<a></li><p>
+          <li class="d"><a href=".">メッセージ<a></li><p>
+          <li class="e"><a href=".">ブックマーク<a></li><p>
+          <li class="f"><a href=".">リスト<a></li><p>
+          <li class="g"><a href=".">プロフィール<a></li><p>
+          <li class="h"><a href=".">もっと見る<a></li><p>
         </ul>
       </div>
       
-      <div id="side">
+      <div id="side2">  
+        <ul>
+          <li><%= link_to 'ツイートする', '/tweets/new' %></li>
+        </ul>
+      </div>
     </header>
   </body>
 </html>
