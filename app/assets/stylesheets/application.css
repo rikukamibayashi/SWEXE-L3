@@ -17,8 +17,7 @@
 
 
  body {
-     background-color: white;
-     width: 980px;
+     width: 1100px;
      margin: 0 auto;
  }
  
@@ -29,22 +28,26 @@
  }
 
  #header {
-     width: 500px;
+     padding: 20px;
+     width: 720px;
      float: right;
+     float: top;
  }
 
  #sidebar {
-     width: 720px;
+     width: 220px;
      float: left;
  }
 
  #content {
-      border-top: solid 1px #CCCCCC;
-      clear: both;
-      text-align: center;
+     height: 720px;
+     width: 720px;
+     float: right;
+     float: bottom;
+     text-align: center;
  }
  
  #footer {
-      clear: both;
-      text-align: center;
+     clear: both;
+     text-align: center;
  }

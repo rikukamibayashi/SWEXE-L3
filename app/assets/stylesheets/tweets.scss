@@ -29,9 +29,8 @@
 #side {
     ul {
         color: black;
-        margin: 0;
-        padding: 100;
-        list-style-position: inside;
+        margin: 10;
+        padding: 0;
     }
     li a {
         text-decoration: none;
@@ -44,15 +43,13 @@
         background-color: #dddddd;
         color: black;
     }
-    li.a {
-        list-style-type: square;
-        background-image: ulr("../images/ホーム.png");
-    }
 }
 
 
 #side2 {
     ul {
+        margin: 10;
+        padding: 0;
         list-style-type: none;
         color: white;
     }
