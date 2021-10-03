@@ -27,18 +27,11 @@
 
 
 #side {
-    ul {
-        color: black;
-        margin: 10;
-        padding: 0;
-    }
-    li a {
-        text-decoration: none;
-        padding: 8px;
-        background-color: white;
-        color: black;
-    }
-    li a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+
+    :hover {
         border-radius: 30px;
         background-color: #dddddd;
         color: black;
